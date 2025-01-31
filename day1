@@ -1,6 +1,6 @@
 # DAY 1
+
 ## How To Talk To Computers
+
 ### Introduction to QFN-48 Package, pads, chip, core, die and IP`s
 A commonly used arduino board, the arduino leonardo, is shown below. It uses a chip which is just shown from high level view
-  
-it can be represented through a block diagram
