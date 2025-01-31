@@ -1,61 +1,60 @@
 # physical chip design -- by Sripad Sujay
 author :- Sripad Sujay
 Contents -:
-
-SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK
-How to Talk to Computers
-Introduction to QFN - 48 package, chip, pads, core, die and IPs
-Introduction to RISC V
-From Software Applications to Hardware
-SoC Design and OpenLANE
-Introduction to Components of Opensource Digital ASIC Design
-Simplified RTL to GDS flow
-Introduction to OpenLANE and Strive Chipsets
-Introduction to OpenLANE detailed ASIC Design Flow
-Get Familiar to Opensource EDA tools
-OpenLANE Directory Structure in Detail
-Design Preparation Step
-Review Files After Design Prep and Run Synthesis
-Steps to Characterise Synthesis Results
-SKY130 Day 2: Good vs Bad Floorplan and Introduction to Library Cells
-Chip Floor Planning Considerations
-Utilisation Factor and Aspect Ratio
-Concept of Pre-Placed Cells
-De-Coupling Capacitors
-Power Planning
-Pin Placement and Logical Cell Placement Blockage
-Steps to Run Floorplan Using OpenLANE
-Review Floorplan Files and Steps to Review Floorplan
-Review Floorplan Layout in Magic
-Library Binding and Placement
-Netlist Binding and Initial Place Design
-Optimise Placement Using Estimated Wire-Length and Capacitance
-Final Placement Optimization
-Need for Libraries and Characterisation
-Congestion Aware Placement Using RePLACE
-Cell Design and Characterisation Flows
-Inputs for Cell Design Flow
-Circuit Design Step
-Layout Design Step
-Typical Characterisation Flow
-General Timing Characterisation Parameters
-Timing Threshhold Definitions
-Propogation Delay and Transition Time
-SKY130 DAY 3: Design Library Cell Using Magic Layout and NGSPICE characterisation
-Labs for CMOS Inverter NGSPICE Simulations
-IO Placer Revision
-SPICE Deck Creation For CMOS Inverter
-SPICE Simulation Lab for CMOS Inverter
-Switching Threshhold Vm
-Static and Dynamic Simulation of CMOS Inverter
-Lab Steps to GitClone VSDSTD Cell Design
-Inception of Layout Â CMOS Fabrication Process
-Create Active Regions
-Formation of N and P well
-Formation of Gate Terminal
-Lightly Doped Drain [LDD] Formation
-Source Â Drain Formation
-Local Interconnect Formation
-Higher Level Metal Formation
-Lab Introduction to SKY130 Basic Layers Layout and LEF using Inverter
-Lab Steps to Create STD Cell Layout and Extract SPICE Netlist
+* [SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md)
+    - [How to Talk to Computers](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#how-to-talk-to-computers)
+        + [Introduction to QFN - 48 package, chip, pads, core, die and IPs](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-qfn---48-package-chip-pads-core-die-and-ips)
+        + [Introduction to RISC V](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-risc-v)
+        + [From Software Applications to Hardware](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#from-software-applications-to-hardware)
+    - [SoC Design and OpenLANE](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#soc-design-and-openlane)
+        + [Introduction to Components of Opensource Digital ASIC Design](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-components-of-opensource-digital-asic-design)
+        + [Simplified RTL to GDS flow](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#simplified-rtl-to-gds-flow)
+        + [Introduction to OpenLANE and Strive Chipsets](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-openlane-and-strive-chipsets)
+        + [Introduction to OpenLANE detailed ASIC Design Flow](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-openlane-detailed-asic-design-flow)
+    - [Get Familiar to Opensource EDA tools](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#get-familiar-to-opensource-eda-tools)
+        + [OpenLANE Directory Structure in Detail](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#openlane-directory-structure-in-detail)
+        + [Design Preparation Step](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#design-preparation-step)
+        + [Review Files After Design Prep and Run Synthesis](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#review-files-after-design-prep-and-run-synthesis)
+        + [Steps to Characterise Synthesis Results](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#steps-to-charecterise-synthesis-results)        
+* [SKY130 Day 2: Good vs Bad Floorplan and Introduction to Library Cells](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#sky130-day-2-good-vs-bad-floorplan-and-introduction-to-library-cells)
+    - [Chip Floor Planning Considerations](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#chip-floor-planning-considerations)
+        + [Utilisation Factor and Aspect Ratio](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#utilisation-factor-and-aspect-ratio)
+        + [Concept of Pre-Placed Cells](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#concept-of-pre-placed-cells)
+        + [De-Coupling Capacitors](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#de-coupling-capacitors)
+        + [Power Planning](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#power-planning)
+        + [Pin Placement and Logical Cell Placement Blockage](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#pin-placement-and-logical-cell-placement-blockage)
+        + [Steps to Run Floorplan Using OpenLANE](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#steps-to-run-floorplan-using-openlane)
+        + [Review Floorplan Files and Steps to Review Floorplan](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#review-floorplan-files-and-steps-to-review-floorplan)
+        + [Review Floorplan Layout in Magic](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#review-floorplan-layout-in-magic)
+     - [Library Binding and Placement](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#library-binding-and-placement)
+        + [Netlist Binding and Initial Place Design](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#netlist-binding-and-initial-place-design)
+        + [Optimise Placement Using Estimated Wire-Length and Capacitance](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#optimise-placement-using-estimated-wire-length-and-capacitance)
+        + [Final Placement Optimization](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#final-placement-optimization)
+        + [Need for Libraries and Characterisation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#need-for-libraries-and-characterisation)
+        + [Congestion Aware Placement Using RePLACE](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#congestion-aware-placement-using-replace)
+    - [Cell Design and Characterisation Flows](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#cell-design-and-characterisation-flows)
+        + [Inputs for Cell Design Flow](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#inputs-for-cell-design-flow-and-circuit-and-layout-design-step)
+        + [Circuit Design Step](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#inputs-for-cell-design-flow-and-circuit-and-layout-design-step)
+        + [Layout Design Step](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#inputs-for-cell-design-flow-and-circuit-and-layout-design-step)
+        + [Typical Characterisation Flow](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#typical-characterisation-flow)
+     - [General Timing Characterisation Parameters](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#general-timing-characterisation-parameters)
+        + [Timing Threshhold Definitions](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#timing-threshhold-definitions)
+        + [Propogation Delay and Transition Time](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%202.md#propogation-delay-and-transition-time)     
+* [SKY130 DAY 3: Design Library Cell Using Magic Layout and NGSPICE characterisation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#sky130-day-3-design-library-cell-using-magic-layout-and-ngspice-characterisation)
+     - [Labs for CMOS Inverter NGSPICE Simulations](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#labs-for-cmos-inverter-ngspice-simulations)
+        + [IO Placer Revision](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#io-placer-revision)
+        + [SPICE Deck Creation For CMOS Inverter](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#spice-deck-creation-for-cmos-inverter)
+        + [SPICE Simulation Lab for CMOS Inverter](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#spice-simulation-lab-for-cmos-inverter)
+        + [Switching Threshhold Vm](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#switching-threshhold-vm)
+        + [Static and Dynamic Simulation of CMOS Inverter](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#static-and-dynamic-simulation-of-cmos-inverter)
+        + [Lab Steps to GitClone VSDSTD Cell Design](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#lab-steps-to-gitclone-vsdstd-cell-design)
+     - [Inception of Layout Â CMOS Fabrication Process](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#inception-of-layout-%C3%A2-cmos-fabrication-process)
+        + [Create Active Regions](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#create-active-regions)
+        + [Formation of N and P well](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#formation-of-n-and-p-well)
+        + [Formation of Gate Terminal](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#formation-of-gate-terminal)
+        + [Lightly Doped Drain [LDD] Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#lightly-doped-drain-ldd-formation)
+        + [Source Â Drain Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#source-%C3%A2-drain-formation)
+        + [Local Interconnect Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#local-interconnect-formation)
+        + [Higher Level Metal Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#higher-level-metal-formation)
+        + [Lab Introduction to SKY130 Basic Layers Layout and LEF using Inverter](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#lab-introduction-to-sky130-basic-layers-layout-and-lef-using-inverter)
+        + [Lab Steps to Create STD Cell Layout and Extract SPICE Netlist](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#lab-steps-to-create-std-cell-layout-and-extract-spice-netlist)
