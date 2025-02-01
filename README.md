@@ -3,4 +3,4 @@ author :- Sripad Sujay
 
 Contents :-
 
-[day1](https://github.com/sripad380/vsdiat-sripad-sujay/edit/main/day1.md)
+[day1](https://github.com/sripad380/vsdiat-sripad-sujay/blob/main/day1.md)
