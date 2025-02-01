@@ -200,8 +200,9 @@ edited:-
 
 ![image](https://github.com/user-attachments/assets/db1799d4-f9f0-41a9-b098-ddffd6dfb83f)
 
-Using this we can charecterise 4 parameters:-
 
 
+![image](https://github.com/user-attachments/assets/adb24d98-de13-4ccb-976c-a04cc3941122)
 
-![image](https://github.com/user-attachments/assets/ad99eac2-8880-4d6d-b267-d8dbf86af9bd)
+![image](https://github.com/user-attachments/assets/38a17a03-7c64-436a-ad98-6d910438c93d)
+
