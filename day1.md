@@ -9,7 +9,7 @@ A commonly used arduino board, the arduino leonardo, is shown below. It uses a c
 This can be represented via a block diagram as shown below
 ![image](https://github.com/user-attachments/assets/11eb7d67-ef18-40ae-b0e6-0f4aaff15cc2)
 
-The picture represnts a large block called soc. This is commonly called a chip but in reality it is a package inside wich the chip is present. One type of package commonly used in arduino boards is the QFN-48 package (**Q**uad **F**lat **N**o leads). A package is shown below.
+The picture represnts a large block called soc. This is commonly called a chip but in reality it is a package inside which the chip is present. One type of package commonly used in arduino boards is the QFN-48 package (**Q**uad **F**lat **N**o leads). A package is shown below.
 
 ![image](https://github.com/user-attachments/assets/3f481c5d-a0b6-48e0-bbf3-3e92df517f9f)
 
