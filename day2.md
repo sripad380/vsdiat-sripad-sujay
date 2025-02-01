@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7c6b6db2-000f-45b5-a443-29b26474daf7)# SKY130 Day 2: Good vs Bad Floorplan and Introduction to Library Cells
+# SKY130 Day 2: Good vs Bad Floorplan and Introduction to Library Cells
 ## Chip Floor Planning Considerations
 ### Utilisation Factor and Aspect Ratio
 
