@@ -190,3 +190,18 @@ To load the SPICE file for simulation in NGSPICE, type the following command : n
 
 ![image](https://github.com/user-attachments/assets/f5185d39-8d45-495a-a93f-0f5fb979e74b)
 
+edited:-
+
+![image](https://github.com/user-attachments/assets/bb65ac6a-3268-4802-b077-a9baac347575)
+
+![image](https://github.com/user-attachments/assets/47846601-73a0-4e94-8f2d-d299bf5f502a)
+
+![image](https://github.com/user-attachments/assets/f34d4bd4-3b0b-4d88-9a7f-c1ce3fad72f3)
+
+![image](https://github.com/user-attachments/assets/db1799d4-f9f0-41a9-b098-ddffd6dfb83f)
+
+Using this we can charecterise 4 parameters:-
+
+
+
+![image](https://github.com/user-attachments/assets/ad99eac2-8880-4d6d-b267-d8dbf86af9bd)
