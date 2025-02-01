@@ -149,3 +149,12 @@ Here, the red line is output of first inverter and blue is output of second inve
 
 ![image](https://github.com/user-attachments/assets/06098372-b233-4faa-ac25-a22e2faebed1)
 ![image](https://github.com/user-attachments/assets/210e575c-e9e4-48ed-91d1-a21b79542c22)
+
+### Propogation Delay and Transition Time
+
+Propogation delay is calculated as = time(out_x_thr) - (time_x_thr). If the propogation delay is negative, it can cause quite unexpected results - as an output is generated before the input. Hence, threshhold values should be selected properly. Delay threshold is usually 50% and slew rate threshold is usually 20%-80%.
+
+Transition time is calculated as = time(slew_high_x_thr) - time(slew_low_x_thr)
+
+![image](https://github.com/user-attachments/assets/61060c2c-a3e7-47ff-81f2-cdef663c6141)
+
