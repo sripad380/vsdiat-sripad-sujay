@@ -214,4 +214,7 @@ An introduction to magic's [design rule check](http://opencircuitdesign.com/magi
 ### Lab Introduction to SKY130 PDKs And Steps to Download Labs
 
 Now, for the lab we need to download the lab files, which can be done through this command :- 
-```wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz```
+
+`wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz`
+
+
