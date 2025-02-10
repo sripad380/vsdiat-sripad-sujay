@@ -206,3 +206,12 @@ edited:-
 
 ![image](https://github.com/user-attachments/assets/38a17a03-7c64-436a-ad98-6d910438c93d)
 
+
+### Lab Introduction to Magic Tool Options and DRC Rules
+
+An introduction to magic's [design rule check](http://opencircuitdesign.com/magic/tutorials/tut6.html)
+
+### Lab Introduction to SKY130 PDKs And Steps to Download Labs
+
+Now, for the lab we need to download the lab files, which can be done through this command :- 
+```wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz```
