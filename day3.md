@@ -217,4 +217,41 @@ Now, for the lab we need to download the lab files, which can be done through th
 
 `wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz`
 
+![image](https://github.com/user-attachments/assets/fb769f81-d6e6-42f4-91ab-9b306faf7adc)
+
+Then, to extract these files, we can type tar xfz drc_tests.tgz
+
+![image](https://github.com/user-attachments/assets/0aa6eb3a-9e97-496b-bc38-3046fdedfcb9)
+
+go to the drc_tests directory using :-
+
+`cd drc_tests`
+
+then open magic using :-
+
+`magic -T`
+
+>note sir used magic -d XR but i find using magic -T as fine
+
+### Lab Introduction to Magic and Steps to Load SKY130 Tech Rules
+
+In the empty magic prompt, click file, which you can find in the top left corner and select met3.mag inside open to see this :-
+
+![image](https://github.com/user-attachments/assets/071f6a28-a25d-4b78-b07a-bb6f58d74813)
+
+the broken rules can be found [here](https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html#m3)
+
+the broken rules list is given here :-
+* m3.1  -> width shoud be greater than 0.3 um
+* m3.2  -> distance between two metals shoud be greater than 0.3 um
+* m3.3c -> minimum distance of features attatched/extending play huge_met 3 for a distance of up to 0.4 um to metal 3
+* m3.3d -> open minimum spacing of huge_met3 to metal 3 excluding features checked by M3.3a
+* m3.5  -> via 2 must be influenced by metal 3 or one of the 2 adjacent sides by atleast some value
+* m3.6  -> minimum area of metal 3 must be 0.24 um²
+
+### Lab Excercise to Fix poly.9 error in SKY130 Tech-File
+
+Type `load poly` in tkcon window :-
+
+![image](https://github.com/user-attachments/assets/a862d281-7803-432f-bd21-faf1f7d86933)
 
