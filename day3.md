@@ -255,3 +255,17 @@ Type `load poly` in tkcon window :-
 
 ![image](https://github.com/user-attachments/assets/a862d281-7803-432f-bd21-faf1f7d86933)
 
+[here](https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html#poly) it is stated that poly resistor spacing to poly (no overlap) to diff/tap should be atleast 0.48um. the gridlines here are 0.1um lengthwise and breadthwise. we can clearly see that it is less than 0.48um:-
+
+![image](https://github.com/user-attachments/assets/ea5243b0-34da-4637-bab8-4796f93645f5)
+
+Open the sky130A.tech file from the directory drc_tests. The rules included for poly.9 are only for the spacing between the n-poly and p-poly resistor with diffusion. So, we will now add new rules for the spacing between the poly resistor with poly non-resistor. The 2 new rules have been shown highlighted.
+
+![image](https://github.com/user-attachments/assets/9b46c3f5-f921-4c36-8bc8-795a8eb1114f)
+
+![image](https://github.com/user-attachments/assets/4a05e5b3-1761-4f1a-b132-4e7cb533718b)
+
+Then, enter commands as shown:-
+
+![image](https://github.com/user-attachments/assets/62f9fa3b-df79-459b-b071-a3430a6b0028)
+
