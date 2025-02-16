@@ -268,10 +268,3 @@ Open the sky130A.tech file from the directory drc_tests. The rules included for 
 Then, enter commands as shown:-
 
 ![image](https://github.com/user-attachments/assets/62f9fa3b-df79-459b-b071-a3430a6b0028)
-
-### Lab Excercise to Implement Poly-Resistor Spacing to Diff and Tap
-
-In the below picture, we see a question mark in place of an error which is missing which we can fix by modifying the tech file by including the spacing between npolyres and all types of diffusion.
-
-![image](https://github.com/user-attachments/assets/baf8abb6-fb68-46b0-8fc5-13d400c8ad1f)
-
